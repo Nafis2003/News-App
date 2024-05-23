@@ -33,7 +33,6 @@ const App=()=>{
     useEffect(()=>{
         fetch(url).then(blob=>blob.json()).then(data=>setData(data.articles));
     },[]);
-    console.log(data);
     let key =0;
     return <>
     <Header/>
