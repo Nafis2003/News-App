@@ -11,6 +11,10 @@ html{
     font-size: 16px;
 }
 
+#root{
+    margin: 0 1rem;
+}
+
 header h1{
     display: flex;
     width: 100%;
@@ -48,9 +52,19 @@ nav{
     color: rgb(9, 130, 252);
 }
 
-.card{}
+.card{
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px rgba(0,0,0, 0.1),
+                2px 2px 8px rgba(0,0,0, 0.1);
+    margin: 1rem 0;
+    overflow: hidden;
+}
 
 .card img{
     width: 100%;
     object-fit: cover;
+}
+
+.card h4{
+    padding: 0.5rem;
 }
